@@ -40,7 +40,7 @@ basestrap /mnt base base-devel runit elogind-runit vim
 # Install Linux kernel
 basestrap /mnt linux linux-firmware
 
-# Setup bootloader
+# Configure fstab (mount partitions after reboot)
 fstabgen -U /mnt >> /mnt/etc/fstab
 
 # Configure base artix system
@@ -60,6 +60,7 @@ locale.gen
 
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 
+# Setup bootloader
 pacman --noconfirm --needed -S grub && grub-install --recheck /dev/sda && grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman --noconfirm --needed -S dialog
@@ -74,7 +75,7 @@ echo "::1          localhost" >> /etc/hosts
 EOF
 
 # TODO
-# umount and reboot prompts?
+# umount and reboot prompts?!?
 
 
 

@@ -74,4 +74,9 @@ A,frum-bin, "is a ruby version manager"
 ,ripgrep, "is a replacment for grep"
 ,sxhkd, "is a simple X hotkey daemon"
 A,youtube-viewer, "is a lightweight YouTube client"
+,parted, "is a program to manipulate partitions"
+,imagemagick, "is an image viewing/manipulation program"
+,ueberzug, "is a utility to display images in terminal"
+,ffmpegthumbnailer, "is a video thumbnailer that can be used by file managers"
+
 
