@@ -78,5 +78,11 @@ A,youtube-viewer, "is a lightweight YouTube client"
 ,imagemagick, "is an image viewing/manipulation program"
 ,ueberzug, "is a utility to display images in terminal"
 ,ffmpegthumbnailer, "is a video thumbnailer that can be used by file managers"
+A,nordvpn-bin, "is a vpn service"
+A,nordvpn-runit, "is a runit service script for nordvpn"
+A,ttf-monaco, "is a monospaced sans-serif typeface"
+,clipmenu, "is a clipboard managment tool using dmenu"
+,speedtest-cli, "is a tool for testing internet bandwidth"
+A,glow, "is a markdown rendered for the CLI"
 
 
